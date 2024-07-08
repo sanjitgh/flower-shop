@@ -215,3 +215,25 @@ header {
 .btn_block{
     text-align: center;
 }
+
+.instagram{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.instagram h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.instagram p{
+    width: 600px;
+    margin: 0 auto 50px;
+}
+
+.insta_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
