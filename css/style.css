@@ -237,3 +237,46 @@ header {
     justify-content: center;
     gap: 25px;
 }
+
+.subscribe{
+    margin-bottom: 128px;
+    
+}
+
+.subscribe_bg{
+    text-align: center;
+    padding: 120px 250px;
+    background: url(../images/subs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.subscribe_bg h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.subscribe_bg p{
+    margin-bottom: 48px;
+}
+
+.subscribe_bg input[type=email]{
+    width: 700px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.subscribe_bg input[type=email]:focus{
+    outline: none;
+}
+
+.subscribe_bg input[type=email]::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+}
