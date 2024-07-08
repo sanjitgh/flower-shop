@@ -148,13 +148,13 @@ header {
     text-align: center;
 }
 
-/* dalivery section */
+/* delivery section */
 
-.dalivery{
+.delivery{
     margin-bottom: 128px;
 }
 
-.dalivery_wrapper{
+.delivery_wrapper{
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-between;
@@ -164,14 +164,54 @@ header {
 
 }
 
-.dalivery_item{
+.delivery_item{
     width: 33.33%;
     text-align: center;
 }
 
-.dalivery_item p{
+.delivery_item p{
     color: rgba(39, 39, 39, 0.80);
     font-size: 20px;
     font-weight: 600;
     margin-top: 24px;
+}
+
+.deal{
+    background: rgba(229, 84, 115, 0.05);
+    min-height: 620px;
+    margin-bottom: 120px;
+}
+
+.deal_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 620px;
+}
+
+.leal_left_item{    
+    width: 70%;
+}
+
+.deal_right_item{
+    width: 30%;
+}
+
+.leal_left_item h1{    
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.off_color{
+    color: #E55473;
+}
+.leal_left_item p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto 32px;
+}
+.btn_block{
+    text-align: center;
 }
