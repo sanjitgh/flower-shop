@@ -147,3 +147,31 @@ header {
     display: block;
     text-align: center;
 }
+
+/* dalivery section */
+
+.dalivery{
+    margin-bottom: 128px;
+}
+
+.dalivery_wrapper{
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 175px ;
+    border-radius: 8px;
+
+}
+
+.dalivery_item{
+    width: 33.33%;
+    text-align: center;
+}
+
+.dalivery_item p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+}
