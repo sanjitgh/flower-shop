@@ -150,100 +150,102 @@ header {
 
 /* delivery section */
 
-.delivery{
+.delivery {
     margin-bottom: 128px;
 }
 
-.delivery_wrapper{
+.delivery_wrapper {
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 85px 175px ;
+    padding: 85px 175px;
     border-radius: 8px;
 
 }
 
-.delivery_item{
+.delivery_item {
     width: 33.33%;
     text-align: center;
 }
 
-.delivery_item p{
+.delivery_item p {
     color: rgba(39, 39, 39, 0.80);
     font-size: 20px;
     font-weight: 600;
     margin-top: 24px;
 }
 
-.deal{
+.deal {
     background: rgba(229, 84, 115, 0.05);
     min-height: 620px;
     margin-bottom: 120px;
 }
 
-.deal_wrapper{
+.deal_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 620px;
 }
 
-.leal_left_item{    
+.leal_left_item {
     width: 70%;
 }
 
-.deal_right_item{
+.deal_right_item {
     width: 30%;
 }
 
-.leal_left_item h1{    
+.leal_left_item h1 {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
     text-align: center;
 }
 
-.off_color{
+.off_color {
     color: #E55473;
 }
-.leal_left_item p{
+
+.leal_left_item p {
     width: 600px;
     text-align: center;
     margin: 0 auto 32px;
 }
-.btn_block{
+
+.btn_block {
     text-align: center;
 }
 
-.instagram{
+.instagram {
     text-align: center;
     margin-bottom: 120px;
 }
 
-.instagram h1{
+.instagram h1 {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.instagram p{
+.instagram p {
     width: 600px;
     margin: 0 auto 50px;
 }
 
-.insta_wrapper{
+.insta_wrapper {
     display: flex;
     justify-content: center;
     gap: 25px;
 }
 
-.subscribe{
+.subscribe {
     margin-bottom: 128px;
-    
+
 }
 
-.subscribe_bg{
+.subscribe_bg {
     text-align: center;
     padding: 120px 250px;
     background: url(../images/subs.png);
@@ -253,17 +255,17 @@ header {
     border-radius: 8px;
 }
 
-.subscribe_bg h1{
+.subscribe_bg h1 {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 16px;
 }
 
-.subscribe_bg p{
+.subscribe_bg p {
     margin-bottom: 48px;
 }
 
-.subscribe_bg input[type=email]{
+.subscribe_bg input[type=email] {
     width: 700px;
     padding: 13px;
     border: none;
@@ -273,10 +275,35 @@ header {
     color: rgba(39, 39, 39, 0.60);
 }
 
-.subscribe_bg input[type=email]:focus{
+.subscribe_bg input[type=email]:focus {
     outline: none;
 }
 
-.subscribe_bg input[type=email]::placeholder{
+.subscribe_bg input[type=email]::placeholder {
     color: rgba(39, 39, 39, 0.60);
+}
+
+footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 128px 0;
+}
+
+footer h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+footer p{
+    width: 625px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copy{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 32px;
 }
