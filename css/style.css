@@ -45,7 +45,7 @@ header {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .banner_section {
@@ -80,7 +80,7 @@ header {
 
 .btn {
     border-radius: 8px;
-    width: 180px;
+    width: 20%;
     background: #E55473;
     border: none;
     padding: 13px 0;
@@ -236,7 +236,7 @@ header {
 
 .insta_wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 25px;
 }
 
@@ -266,7 +266,7 @@ header {
 }
 
 .subscribe_bg input[type=email] {
-    width: 700px;
+    width: 80%;
     padding: 13px;
     border: none;
     border-radius: 8px;
@@ -306,4 +306,91 @@ footer p{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.40);
     margin-top: 32px;
+}
+
+.insta_img {
+    width: 25%;
+}
+
+.insta_img img {
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* media quarry */
+
+@media screen and (max-width:1440px) {
+    .insta_wrapper {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner_section,
+    .deal_wrapper
+    {
+        flex-direction: column;
+    }
+    .banner_left_item h1 {
+        font-size: 40px;
+    }
+    .banner_left_item {
+        width: 100%;
+    }
+    .banner_right_item {
+        width: 100%;
+    }
+    .subscribe_bg {
+        padding: 120px 200px;
+    }
+    .banner_left_item p,
+    .featured_header p
+    {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .banner_right_item img {
+        width: 300px;
+    }
+    .btn {
+        width: 180px;
+
+    }
+    .featured_wrapper,
+    .delivery_wrapper,
+    .insta_wrapper
+    {
+        flex-direction: column;
+    }
+    .featured_item,
+    .delivery_item,
+    .leal_left_item,
+    .instagram p,
+    .insta_img
+    {
+        width: 100%;
+    }
+    .delivery_wrapper {
+        padding: 0;
+    }
+    .deal_right_item {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .leal_left_item p,
+    footer p
+    {
+        width: auto;
+    }
+    .subscribe_bg {
+        padding: 20px;
+    }
+
 }
